@@ -1,14 +1,24 @@
-import {Route, Routes} from 'react-router-dom';
-function Navbar() {
+import React from 'react'
+import Form from 'react-bootstrap/Form'
+
+function navBar () {
     return (
-        <div className='App'>
-        <div class="topnav">
-          <a class="homepage" href="#homepage">Home</a>
-          <a href="#Login">Login</a>
-          <a href="#contact">Contact</a>
-          <a href="#about">About</a>
+        <div>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="homepage">BOMBALABAP</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id ="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="homepage">Home </a>
+      <a class="nav-item nav-link" href="Login">Login</a>
+      <a class="nav-item nav-link" href="Registration">Registration</a>
+      <a class="nav-item nav-link" href="Contact">Contact Us</a>
+    </div>
+  </div>
+</nav>
         </div>
-            </div>
     );
 }
-    export default Navbar;
+  export default navBar;
