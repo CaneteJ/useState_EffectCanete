@@ -25,7 +25,7 @@ import { Container, Form, Button } from "react-bootstrap";
                  <div className="col-md-5 col-lg-5" >
                     <div className="card my-5" style={{ backgroundColor: "#A984EB", opacity: 0.8, position: "relative", zIndex: 1 }}>
                             <Form onSubmit={handleSubmit} className="shadow p-4 rounded">
-                              <h1 className="text-center mb-4">Power Fitness</h1>
+                              <h1 className="text-center mb-4">Login</h1>
                               {fields.map((field) => (
                                 <Form.Group key={field.label} className="mb-3">
                                   <Form.Label>{field.label}</Form.Label>
