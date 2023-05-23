@@ -2,7 +2,6 @@ import {Route, Routes} from 'react-router-dom';
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.css'
 
-
 function Contact() {
     return (
      
